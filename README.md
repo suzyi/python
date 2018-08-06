@@ -12,4 +12,4 @@ If you include this command in your program, you'd better use `print(something)`
 + `np.arange(0, 2*np.pi, .1)`
 ### 2 - 2 - matplotlib
 + `from matplotlib import pyplot as plt` or `import matplotlib.pyplot as plt`
-+ `plt.plot(X, Y, 'r')`
++ `plt.plot(X, Y, 'r+', markersize=1)` or `plt.plot(X, Y, 'r-', linewidth=1)`
