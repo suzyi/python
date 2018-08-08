@@ -3,7 +3,7 @@
 python is a kernel. There are three kinds of user interfaces, inluding [spyder](https://pypi.org/project/spyder/), [jupyter](http://jupyter.org/) and [pycharm](https://www.jetbrains.com/pycharm/).
 ### 1 - 1 - spyder
 ### 1 - 2 - Jupyter
-+ customize a shortcut for "restart & run all"
++ customize a shortcut for "restart & run all", see [dicussion on github](https://github.com/ipython/ipython/issues/4468#issuecomment-137986736).
 ### 1 - 3 - pycharm
 + **zip [(notebook)](https://github.com/suzyi/python/blob/master/notebook/zip.ipynb)**.
 ## class
