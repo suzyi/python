@@ -11,6 +11,7 @@ If you include this command in your program, you'd better use `print(something)`
 + `y = lambda x: np.sin(x)`
 + `np.arange(0, 2*np.pi, .1)`
 + Define piecewise function `np.piecewise(x, [x < 0, x >= 0], [lambda x: -x, lambda x: x])`. [Multiple pieces](https://stackoverflow.com/questions/19578185/multiple-pieces-in-a-numpy-piecewise)
++ To generate random number, see [notebook](https://github.com/suzyi/python/blob/master/notebook/python/randn_rand.ipynb) for the usage of `numpy.random.rand()`, `numpy.random.randn()`.
 ### 2 - 2 - matplotlib
 + `from matplotlib import pyplot as plt` or `import matplotlib.pyplot as plt`
 + `plt.plot(X, Y, 'r+', markersize=1)` or `plt.plot(X, Y, 'r-', linewidth=1)`
