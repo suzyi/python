@@ -3,6 +3,7 @@
 python is a kernel. There are three kinds of user interfaces, inluding [spyder](https://pypi.org/project/spyder/), [jupyter](http://jupyter.org/) and [pycharm](https://www.jetbrains.com/pycharm/).
 ### 1 - 1 - spyder
 ### 1 - 2 - Jupyter
++ LaTeX is allowed in this platform.
 + customize a shortcut for "restart & run all", "help -> Edit keyboards shortcuts".
 + Convert a .ipynb file to .py file in command line (terminal) `ipython nbconvert --to python YourNotebook.ipynb` and then just run the .py file in the terminal with command `python yourfile.py`.
 ### 1 - 3 - pycharm
