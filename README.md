@@ -4,6 +4,7 @@ python is a kernel. There are three kinds of user interfaces, inluding [spyder](
 ### 1 - 1 - spyder
 ### 1 - 2 - Jupyter
 + customize a shortcut for "restart & run all", "help -> Edit keyboards shortcuts".
++ Convert a .ipynb file to .py file in command line (terminal) `ipython nbconvert --to python YourNotebook.ipynb`
 ### 1 - 3 - pycharm
 + **zip [(notebook)](https://github.com/suzyi/python/blob/master/notebook/zip.ipynb)**.
 ## class
