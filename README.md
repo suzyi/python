@@ -14,16 +14,20 @@ The `__future__` module is used for testing future version of some changes in cu
 If you include this command in your program, you'd better use `print(something)` instead of `print something`, since it may return an error `invalid syntax`.
 + **`weight={'weight_1': [1, 1.5, 5.3]}` [(notebook)](https://github.com/suzyi/python/blob/master/notebook/weight%3D%7B.ipynb)**.
 + **solve ODEs**. See [web](http://old.sebug.net/paper/books/scipydoc/scipy_intro.html#id5) or [(notebook)](https://github.com/suzyi/python/blob/master/notebook/Lorenz.ipynb) for numerical solution to Lorenz system, using python. And [web](http://bzhang.lamost.org/website/archives/lorenz_attactor) for intro to Lorenz system. See [(notebook)](https://github.com/suzyi/python/blob/master/notebook/duffing.ipynb) for duffing oscillator.
-## 2 - modules
-### 2 - 1 - numpy
+## 2 - data type
+### 2 - 1 - list
+### 2 - 2 - dict
++ Define a series/set of funtions that are similar in form such as "f0", "f1", "f2", ... , "f20", see [notebook](https://github.com/suzyi/python/blob/master/notebook/datatype/dict/dict.ipynb)
+## 3 - modules
+### 3 - 1 - numpy
 + `y = lambda x: np.sin(x)`
 + `np.arange(0, 2*np.pi, .1)`
 + Define piecewise function `np.piecewise(x, [x < 0, x >= 0], [lambda x: -x, lambda x: x])`. [Multiple pieces](https://stackoverflow.com/questions/19578185/multiple-pieces-in-a-numpy-piecewise)
 + To generate random number, see [notebook](https://github.com/suzyi/python/blob/master/notebook/python/randn_rand.ipynb) for the usage of `numpy.random.rand()`, `numpy.random.randn()`.
-### 2 - 2 - matplotlib
+### 3 - 2 - matplotlib
 + `from matplotlib import pyplot as plt` or `import matplotlib.pyplot as plt`
 + `plt.plot(X, Y, 'r+', markersize=1)` or `plt.plot(X, Y, 'r-', linewidth=1)`
-### 2 - 3 - scipy
+### 3 - 3 - scipy
 + `import scipy.io as sio`
 + `sio.loadmat('./dataIris.mat')`
 + `sio.savemat('IrisData', {'trainingData': trainingData, 'testData': testData})`
