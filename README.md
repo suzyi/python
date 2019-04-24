@@ -17,7 +17,7 @@ If you include this command in your program, you'd better use `print(something)`
 ## 2 - data type
 ### 2 - 1 - list
 ### 2 - 2 - dict
-+ Define a series/set of funtions that are similar in form such as "f0", "f1", "f2", ... , "f20", see [notebook](https://github.com/suzyi/python/blob/master/notebook/datatype/dict/dict.ipynb)
++ Define a series/set of funtions that are similar in form such as "f0", "f1", "f2", ... , "f20", see [notebook](https://github.com/suzyi/python/blob/master/notebook/dict.ipynb)
 ## 3 - modules
 ### 3 - 1 - numpy
 + `y = lambda x: np.sin(x)`
@@ -29,3 +29,8 @@ a `from matplotlib import pyplot as plt` or `import matplotlib.pyplot as plt`
 + `import scipy.io as sio`
 + `sio.loadmat('./dataIris.mat')`
 + `sio.savemat('IrisData', {'trainingData': trainingData, 'testData': testData})`
+### 4 - Advancement Programming
+| Date(2019) | | notebook |
+| --- | --- | --- |
+| Apr 24 | parallel computing | [calculate-in-parallel.ipynb](https://github.com/suzyi/python/blob/master/notebook/global-variable.ipynb),[train-models-in-parallel.ipynb](https://github.com/suzyi/python/blob/master/notebook/train-models-in-parallel.ipynb) |
+| Apr 24 | global variable | [global-variable.ipynb](https://github.com/suzyi/python/blob/master/notebook/global-variable.ipynb) |
