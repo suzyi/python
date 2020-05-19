@@ -1,4 +1,5 @@
 # python
++ nowcoder OJ input-output exercise: https://ac.nowcoder.com/acm/contest/320#question, [nowcoder-oj-exercise](https://github.com/suzyi/python/blob/master/nowcoder-oj-exercise.md)
 ## 1 - Intro to python
 + **`weight={'weight_1': [1, 1.5, 5.3]}` [(notebook)](https://github.com/suzyi/python/blob/master/notebook/weight%3D%7B.ipynb)**.
 + **solve ODEs**. See [web](http://old.sebug.net/paper/books/scipydoc/scipy_intro.html#id5) or [(notebook)](https://github.com/suzyi/python/blob/master/notebook/Lorenz.ipynb) for numerical solution to Lorenz system, using python. And [web](http://bzhang.lamost.org/website/archives/lorenz_attactor) for intro to Lorenz system. See [(notebook)](https://github.com/suzyi/python/blob/master/notebook/duffing.ipynb) for duffing oscillator.
