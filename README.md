@@ -13,7 +13,53 @@
 + tuple
   + Commonly used as the parameters containers, e.g. `(batch, channel, width, height)` for a batch of images.
 + set
-## 3 - modules
+### Class
+A class is a collection of attributes and functions. Take the `class People` below as example, the attributes are name, age and sex and the functions are get_People_info.
+```
+class People:
+    def __init__(self, name, age, sex):
+        self.name = name
+        self.age = age
+        self.sex = sex
+
+    def get_People_info(self):
+        return self.name, self.age, self.sex
+
+people_1 = People("Jorge", 18, "male")
+print(people_1.name)
+print(people_1.get_People_info())
+```
+继承
+```
+class Student(People): # 继承
+    def __init__(self, name, age, sex, university):
+        super(Student, self).__init__(name, age, sex)
+        self.university = university
+
+    def get_Student_info(self):
+        return self.get_People_info(), self.university
+
+student_1 = Student("Jorge", 18, "male", "Harvard")
+print(student_1.name)
+print(student_1.get_People_info())
+print(student_1.get_Student_info())
+```
+or 
+```
+class Student(People): # 继承
+    def __init__(self, name, age, sex):
+        super(Student, self).__init__(name, age, sex)
+        self.university = None
+
+    def get_Student_info(self):
+        return self.get_People_info(), self.university
+
+student_1 = Student("Jorge", 18, "male")
+print(student_1.name)
+print(student_1.get_People_info())
+print(student_1.get_Student_info())
+```
+## 3 - Common Packages
 ### 3 - 1 - numpy
 + `y = lambda x: np.sin(x)`
 + `np.arange(0, 2*np.pi, .1)`
