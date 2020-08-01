@@ -1,11 +1,18 @@
 # python
 + nowcoder OJ input-output exercise: https://ac.nowcoder.com/acm/contest/320#question, [nowcoder-oj-exercise](https://github.com/suzyi/python/blob/master/nowcoder-oj-exercise.md)
-## 1 - Intro to python
+## 1 - Basics
 + **`weight={'weight_1': [1, 1.5, 5.3]}` [(notebook)](https://github.com/suzyi/python/blob/master/notebook/weight%3D%7B.ipynb)**.
 + **solve ODEs**. See [web](http://old.sebug.net/paper/books/scipydoc/scipy_intro.html#id5) or [(notebook)](https://github.com/suzyi/python/blob/master/notebook/Lorenz.ipynb) for numerical solution to Lorenz system, using python. And [web](http://bzhang.lamost.org/website/archives/lorenz_attactor) for intro to Lorenz system. See [(notebook)](https://github.com/suzyi/python/blob/master/notebook/duffing.ipynb) for duffing oscillator.
-
-### 2 - 2 - dict
-+ Define a series/set of funtions that are similar in form such as "f0", "f1", "f2", ... , "f20", see [notebook](https://github.com/suzyi/python/blob/master/notebook/dict.ipynb)
+### Buid-in Containers
++ list
+  + `a = []`
+  + `a.append(21)` or `a += [21]`
++ dict
+  + Define a series/set of funtions that are similar in form such as "f0", "f1", "f2", ... , "f20", see [notebook](https://github.com/suzyi/python/blob/master/notebook/dict.ipynb)
+  + `a = {}` or `a = dict()`
++ tuple
+  + Commonly used as the parameters containers, e.g. `(batch, channel, width, height)` for a batch of images.
++ set
 ## 3 - modules
 ### 3 - 1 - numpy
 + `y = lambda x: np.sin(x)`
