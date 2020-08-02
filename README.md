@@ -7,9 +7,11 @@
 + list
   + `a = []`
   + `a.append(21)` or `a += [21]`
-+ dict
++ dict - A mapping from name to value.
   + Define a series/set of funtions that are similar in form such as "f0", "f1", "f2", ... , "f20", see [notebook](https://github.com/suzyi/python/blob/master/notebook/dict.ipynb)
   + `a = {}` or `a = dict()`
+  + `a['name'] = "Tom"` and `a['age'] = 10`
+  + `a.keys()`
 + tuple
   + Commonly used as the parameters containers, e.g. `(batch, channel, width, height)` for a batch of images.
 + set
@@ -29,7 +31,7 @@ people_1 = People("Jorge", 18, "male")
 print(people_1.name)
 print(people_1.get_People_info())
 ```
-继承
+继承自己定义的类
 ```
 class Student(People): # 继承
     def __init__(self, name, age, sex, university):
@@ -59,6 +61,13 @@ print(student_1.name)
 print(student_1.get_People_info())
 print(student_1.get_Student_info())
 ```
+继承python内置object
+```
+class Student(object):
+```
+则Student创建的对象`student_1 = Student()`会具有以下属性
++ self.__dict__.update(state) # where state is of type defaultdict.
++ self.__class__.__name__ # This is a string.
 ## 3 - Common Packages
 ### 3 - 1 - numpy
 + `y = lambda x: np.sin(x)`
