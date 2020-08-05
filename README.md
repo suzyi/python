@@ -11,7 +11,8 @@
   + Define a series/set of funtions that are similar in form such as "f0", "f1", "f2", ... , "f20", see [notebook](https://github.com/suzyi/python/blob/master/notebook/dict.ipynb)
   + `a = {}` or `a = dict()`
   + `a['name'] = "Tom"` and `a['age'] = 10`
-  + `a.keys()`
+  + `a.keys()` gives `dict_keys(['age', 'name'])`.
+  + `a.items()` gives `dict_items([('age', 10), ('name', 'Tom')])`.
 + tuple
   + Commonly used as the parameters containers, e.g. `(batch, channel, width, height)` for a batch of images.
 + set
