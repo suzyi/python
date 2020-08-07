@@ -13,8 +13,10 @@
   + `a['name'] = "Tom"` and `a['age'] = 10`
   + `a.keys()` gives `dict_keys(['age', 'name'])`.
   + `a.items()` gives `dict_items([('age', 10), ('name', 'Tom')])`.
+  + `**kwargs` is esentially a dict.
 + tuple
   + Commonly used as the parameters containers, e.g. `(batch, channel, width, height)` for a batch of images.
+  + `*args` is essentially a tuple.
 + set
 ### Class
 A class is a collection of attributes and functions. Take the `class People` below as example, the attributes are name, age and sex and the functions are get_People_info.
@@ -69,6 +71,8 @@ class Student(object):
 则Student创建的对象`student_1 = Student()`会具有以下属性
 + self.__dict__.update(state) # where state is of type defaultdict.
 + self.__class__.__name__ # This is a string.
+
+### 装饰器@
 ## 3 - Common Packages
 ### 3 - 1 - numpy
 + `y = lambda x: np.sin(x)`
