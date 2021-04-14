@@ -18,6 +18,8 @@
   + Commonly used as the parameters containers, e.g. `(batch, channel, width, height)` for a batch of images.
   + `*args` is essentially a tuple.
 + set
+  + `a = set()`
+  + `a = a|{"English"}|{"Math"}|{English}`
 ### Class
 A class is a collection of attributes and functions. Take the `class People` below as example, the attributes are name, age and sex and the functions are get_People_info.
 ```
