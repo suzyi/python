@@ -20,6 +20,9 @@
 + set
   + `a = set()`
   + `a = a|{"English"}|{"Math"}|{English}`
+### format
++ `print(f"{3.1415:.2f}")` gives "3.14".
++ `print("%s/images/%s.jpg" % (2007, "cat"))` gives "2007/images/cat.jpg".
 ### Class
 A class is a collection of attributes and functions. Take the `class People` below as example, the attributes are name, age and sex and the functions are get_People_info.
 ```
