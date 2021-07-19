@@ -17,6 +17,7 @@
 + tuple
   + Commonly used as the parameters containers, e.g. `(batch, channel, width, height)` for a batch of images.
   + `*args` is essentially a tuple.
+  + `kernel_size = (1, 2, 3), kernel_size += (4, 5)` gives `kernel_size = (1, 2, 3, 4, 5)`
 + set
   + `a = set()`
   + `a = a|{"English"}|{"Math"}|{English}`
