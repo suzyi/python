@@ -14,13 +14,17 @@
   + `a.keys()` gives `dict_keys(['age', 'name'])`.
   + `a.items()` gives `dict_items([('age', 10), ('name', 'Tom')])`.
   + `**kwargs` is esentially a dict.
++ set
+  + `a = set()` or `a = {"English", "Math", "Chemistry"}`.
+  + `a = a|{"English"}|{"Math"}|{English}` or `a.union{b}` returns a new set, i.e., doesn't change neither `a` or `b`.
+  + The common elements of two sets. `a = {"English", "Math"}`, `b = {"English", "Chemistry"}`, `commonalities = a - (a - b)`.
++ string
+  + `"F:\\data\\train".replace("\\","/")` gives "F:/data/train".
+  + `"F:/data/train".split("/")[1]` gives "data".
 + tuple
   + Commonly used as the parameters containers, e.g. `(batch, channel, width, height)` for a batch of images.
   + `*args` is essentially a tuple.
   + `kernel_size = (1, 2, 3), kernel_size += (4, 5)` gives `kernel_size = (1, 2, 3, 4, 5)`
-+ set
-  + `a = set()`
-  + `a = a|{"English"}|{"Math"}|{English}`
 ### format
 + `print(f"{3.1415:.2f}")` gives "3.14".
 + `print("Only %.2f seconds left" % (3-1.3))` gives "Only 1.70 seconds left".
