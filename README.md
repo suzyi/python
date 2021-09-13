@@ -7,6 +7,7 @@
 + list
   + `a = []`
   + `a.append(21)` or `a += [21]`
+  + `idx = length_vec.index(max(length_vec))`
 + dict - A mapping from name to value.
   + Define a series/set of funtions that are similar in form such as "f0", "f1", "f2", ... , "f20", see [notebook](https://github.com/suzyi/python/blob/master/notebook/dict.ipynb)
   + `a = {}` or `a = dict()`
