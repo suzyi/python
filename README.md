@@ -21,6 +21,7 @@
   + `a = set()` or `a = {"English", "Math", "Chemistry"}`.
   + `a = a|{"English"}|{"Math"}|{English}` or `a.union{b}` returns a new set, i.e., doesn't change neither `a` or `b`.
   + The common elements of two sets. `a = {"English", "Math"}`, `b = {"English", "Chemistry"}`, `commonalities = a - (a - b)`. Or in a more powerful way, `u = set.intersection(set1, set2, set3)`.
+  + All unique elements: `allUniqueElements = set.union(set1, set2, set3)`
 + string
   + `"F:\\data\\train".replace("\\","/")` gives "F:/data/train".
   + `"F:/data/train".split("/")[1]` gives "data".
