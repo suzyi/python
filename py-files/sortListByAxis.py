@@ -8,4 +8,5 @@ if __name__=="__main__":
         score2name.append([name, score])
     print(score2name)
     score2name_ordered = sorted(score2name, key=lambda x: x[1], reverse=True)
+    # in-place usage: score2name.sort(key=lambda x: x[1], reverse=True)
     print(score2name_ordered)
