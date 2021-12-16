@@ -15,6 +15,7 @@
   + `a.keys()` gives `dict_keys(['age', 'name'])`.
   + `a.items()` gives `dict_items([('age', 10), ('name', 'Tom')])`.
   + `**kwargs` is esentially a dict.
+  + [sort a dict by a key](https://github.com/suzyi/python/blob/master/py-files/sortDictByKey.py)
 + set
   + `a = set()` or `a = {"English", "Math", "Chemistry"}`.
   + `a = a|{"English"}|{"Math"}|{English}` or `a.union{b}` returns a new set, i.e., doesn't change neither `a` or `b`.
