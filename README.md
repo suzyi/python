@@ -8,6 +8,7 @@
   + `a = []`
   + `a.append(21)` or `a += [21]`
   + `idx = length_vec.index(max(length_vec))`
+  + [sort a list by its axis](https://github.com/suzyi/python/blob/master/py-files/sortListByAxis.py)
 + dict - A mapping from name to value.
   + Define a series/set of funtions that are similar in form such as "f0", "f1", "f2", ... , "f20", see [notebook](https://github.com/suzyi/python/blob/master/notebook/dict.ipynb)
   + `a = {}` or `a = dict()`
@@ -15,7 +16,7 @@
   + `a.keys()` gives `dict_keys(['age', 'name'])`.
   + `a.items()` gives `dict_items([('age', 10), ('name', 'Tom')])`.
   + `**kwargs` is esentially a dict.
-  + [sort a dict by a key](https://github.com/suzyi/python/blob/master/py-files/sortDictByKey.py)
+  + [sort a dict by its key](https://github.com/suzyi/python/blob/master/py-files/sortDictByKey.py)
 + set
   + `a = set()` or `a = {"English", "Math", "Chemistry"}`.
   + `a = a|{"English"}|{"Math"}|{English}` or `a.union{b}` returns a new set, i.e., doesn't change neither `a` or `b`.
