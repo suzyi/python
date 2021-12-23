@@ -6,12 +6,12 @@ path_to_db = "F:/HereIsFileName.db"
 connection = sql.connect(path_to_db)
 img_names_train = []
 # find in db
-cursor = conn.execute("SELECT id from " + module_name + " WHERE selected=1")
+cursor = connection.execute("SELECT id from " + module_name + " WHERE selected=1")
 for row in cursor:
     img_names_train.append(row[0])
 
 img_names_test = []
-cursor = conn.execute("SELECT id from " + module_name + " WHERE selected=2")
+cursor = connection.execute("SELECT id from " + module_name + " WHERE selected=2")
 for row in cursor:
     img_names_test.append(row[0])
 
