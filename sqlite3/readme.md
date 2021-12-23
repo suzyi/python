@@ -1,4 +1,7 @@
+### intro
 + [tutorial from w3cschool](https://www.w3cschool.cn/sqlite/sqlite-python.html)
++ open a .db file and check what are really contained within it using [sqlitespy](https://github.com/suzyi/python/blob/master/sqlite3/sqlitespy.zip). Warning: this software was uploaded and stored here without permission.
+
 ### read a .db file
 ```
 import sqlite3 as sql
