@@ -15,7 +15,7 @@ cursor = connection.execute("SELECT id from " + module_name + " WHERE selected=2
 for row in cursor:
     img_names_test.append(row[0])
 
-conn.close()
+connection.close()
 ```
 
 ### insert a new line to a .db file
