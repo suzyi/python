@@ -1,5 +1,7 @@
 ### read a .db file
 ```
+import sqlite3 as sql
+
 path_to_db = "F:/HereIsFileName.db"
 connection = sql.connect(path_to_db)
 img_names_train = []
@@ -18,6 +20,8 @@ conn.close()
 
 ### insert a new line to a .db file
 ```
+import sqlite3 as sql
+
 # write .db file
 connection = sql.connect("HereIsFileName.db")
 cursor = connection.cursor()
