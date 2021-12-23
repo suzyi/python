@@ -1,3 +1,4 @@
++ [tutorial from w3cschool](https://www.w3cschool.cn/sqlite/sqlite-python.html)
 ### read a .db file
 ```
 import sqlite3 as sql
