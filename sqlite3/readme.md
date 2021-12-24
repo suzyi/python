@@ -3,6 +3,8 @@
 + open a .db file and check what are really contained within it using [sqlitespy](https://github.com/suzyi/python/blob/master/sqlite3/sqlitespy.zip). Warning: this software was uploaded and stored here without permission.
 ### commonly-used operations
 + select
+    + `cursor = connection.execute("SELECT id, info, name, selected, tag from Classify_1")`
+    + `cursor = connection.execute("SELECT id from " + module_name + " WHERE selected=2")`
 ### read a .db file
 ```
 import sqlite3 as sql
