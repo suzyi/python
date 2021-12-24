@@ -1,5 +1,5 @@
 ### intro
-+ [tutorial from w3cschool](https://www.w3cschool.cn/sqlite/sqlite-python.html)
++ [tutorial from w3cschool.cn](https://www.w3cschool.cn/sqlite/sqlite-python.html) or [w3school.com.cn](https://www.w3school.com.cn/)
 + open a .db file and check what are really contained within it using [sqlitespy](https://github.com/suzyi/python/blob/master/sqlite3/sqlitespy.zip). Warning: this software was uploaded and stored here without permission.
 ### commonly-used operations
 + select
