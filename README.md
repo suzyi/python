@@ -17,6 +17,7 @@
   + `a.items()` gives `dict_items([('age', 10), ('name', 'Tom')])`.
   + `**kwargs` is esentially a dict.
   + [sort a dict by its key](https://github.com/suzyi/python/blob/master/py-files/sortDictByKey.py)
+  + Given `x = "{'a' : 1, 'b' : True, 'c' : 'C'}"`, which is a string and can't be easily modified, then `y = eval(x)` returns you a real dict.
 + set
   + `a = set()` or `a = {"English", "Math", "Chemistry"}`.
   + `a = a|{"English"}|{"Math"}|{English}` or `a.union{b}` returns a new set, i.e., doesn't change neither `a` or `b`.
