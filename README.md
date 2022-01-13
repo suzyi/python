@@ -8,6 +8,7 @@
   + `a = []`
   + `a.append(21)` or `a += [21]`
   + `idx = length_vec.index(max(length_vec))`
+  + `contours = [[[1, 1], [3, 3], [1, 3], [3, 1]], [[1, 1], [1, 2], [1, 3], [2, 3], [3, 3], [3, 2]]], contour_largest = max(contours, key=len)`. This one is quite useful when multiple objects are detected but you just need the largest one.
   + [sort a list by its axis](https://github.com/suzyi/python/blob/master/py-files/sortListByAxis.py)
 + dict - A mapping from name to value.
   + Define a series/set of funtions that are similar in form such as "f0", "f1", "f2", ... , "f20", see [notebook](https://github.com/suzyi/python/blob/master/notebook/dict.ipynb)
