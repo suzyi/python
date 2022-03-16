@@ -19,6 +19,7 @@
   + `**kwargs` is esentially a dict.
   + [sort a dict by its key](https://github.com/suzyi/python/blob/master/py-files/sortDictByKey.py)
   + Given `x = "{'a' : 1, 'b' : True, 'c' : 'C'}"`, which is a string and can't be easily modified, then `y = eval(x)` returns you a real dict.
+  + `scores = {"math": 87, "eng": 89, "phy": 88}`, then `del scores["eng"]`. Scenario: `state_dict = torch.load("resnet18-f37072fd.pth")`, `del state_dict["fc.weight"]`, `del state_dict["fc.bias"]`
 + set
   + `a = set()` or `a = {"English", "Math", "Chemistry"}`.
   + `a = a|{"English"}|{"Math"}|{English}` or `a.union{b}` returns a new set, i.e., doesn't change neither `a` or `b`.
