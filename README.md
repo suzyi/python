@@ -32,6 +32,11 @@
   + Commonly used as the parameters containers, e.g. `(batch, channel, width, height)` for a batch of images.
   + `*args` is essentially a tuple.
   + `kernel_size = (1, 2, 3), kernel_size += (4, 5)` gives `kernel_size = (1, 2, 3, 4, 5)`
+### build-in functions
++ `assert len(img_names)!=0, "Empty img_names does not meet requirement!"`
++ raise
+  + `raise TypeError(f"List required, but {type(img_names)} found!")`
+  + `raise ValueError(f"True or False required, but {img_name} found!")`
 ### format
 + `print(f"{3.1415:.2f}")` gives "3.14".
 + `print("Only %.2f seconds left" % (3-1.3))` gives "Only 1.70 seconds left".
