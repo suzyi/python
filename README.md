@@ -112,3 +112,7 @@ a `from matplotlib import pyplot as plt` or `import matplotlib.pyplot as plt`
 | --- | --- | --- |
 | Apr 24 | parallel computing | [calculate-in-parallel.ipynb](https://github.com/suzyi/python/blob/master/notebook/calculate-in-parallel.ipynb),[train-models-in-parallel.ipynb](https://github.com/suzyi/python/blob/master/notebook/train-models-in-parallel.ipynb), [parallel-learning-notes.ipynb](https://github.com/suzyi/python/blob/master/notebook/parallel-learning-notes.ipynb) |
 | Apr 24 | global variable | [global-variable.ipynb](https://github.com/suzyi/python/blob/master/notebook/global-variable.ipynb) |
+### file processing
++ [txt](file-processing/txt/readme.md)
++ [json](file-processing/json/readme.md)
++ [database.db](file-processing/sqlite3/readme.md)
