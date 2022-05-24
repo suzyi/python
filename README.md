@@ -96,26 +96,22 @@ class Student(object):
 + self.__class__.__name__ # This is a string.
 
 ### 装饰器@
-## 3 - Common Packages
-### 3 - 1 - numpy
-+ `y = lambda x: np.sin(x)`
-+ `np.arange(0, 2*np.pi, .1)`
-+ Define piecewise function `np.piecewise(x, [x < 0, x >= 0], [lambda x: -x, lambda x: x])`. [Multiple pieces](https://stackoverflow.com/questions/19578185/multiple-pieces-in-a-numpy-piecewise)
-a `from matplotlib import pyplot as plt` or `import matplotlib.pyplot as plt`
-+ `plt.plot(X, Y, 'r+', markersize=1)` or `plt.plot(X, Y, 'r-', linewidth=1)`
-### 3 - 3 - scipy
-+ `import scipy.io as sio`
-+ `sio.loadmat('./dataIris.mat')`
-+ `sio.savemat('IrisData', {'trainingData': trainingData, 'testData': testData})`
-### 3 - 4 -other
-+ [torch](pytorch)
-+ [opencv, cv2](cv2)
+### 3 - Common Packages
++ machine learning
+  + [numpy](numpy/readme.md)
++ deep learning
+  + [torch](pytorch)
+  + [opencv, cv2](cv2)
++ file processing
+  + [txt](txt/readme.md)
+  + [json](json/readme.md)
+  + [database.db](sqlite3/readme.md)
+  + matlab.mat
+    + `import scipy.io as sio`
+    + `sio.loadmat('./dataIris.mat')`
+    + `sio.savemat('IrisData', {'trainingData': trainingData, 'testData': testData})`
 ### 4 - Advancement Programming
 | Date(2019) | | notebook |
 | --- | --- | --- |
 | Apr 24 | parallel computing | [calculate-in-parallel.ipynb](https://github.com/suzyi/python/blob/master/notebook/calculate-in-parallel.ipynb),[train-models-in-parallel.ipynb](https://github.com/suzyi/python/blob/master/notebook/train-models-in-parallel.ipynb), [parallel-learning-notes.ipynb](https://github.com/suzyi/python/blob/master/notebook/parallel-learning-notes.ipynb) |
 | Apr 24 | global variable | [global-variable.ipynb](https://github.com/suzyi/python/blob/master/notebook/global-variable.ipynb) |
-### file processing
-+ [txt](txt/readme.md)
-+ [json](json/readme.md)
-+ [database.db](sqlite3/readme.md)
