@@ -6,9 +6,11 @@
   + 
 + optim
 + 
-
-### `.float()`, `.int()`, `.double()`
-To change the data type of a tensor `batch_data`, use `batch_data.float()`.
+### random distribution
++ `torch.rand(size=(1, 5))` Sampled uniformlly from the interval [0, 1).
+### change data type
++ `.float()`, `.int()`, `.double()` Change the data type of a tensor `batch_data`, use `batch_data.float()`.
++ `.tolist()`. For example, `noise = torch.rand(size=(1, 5)).squeeze().tolist()`
 
 ### `torch.nn.ConvTranspose2d` vs `torch.nn.Upsample`
 The parameter of `torch.nn.ConvTranspose2d` is trainable, while `torch.nn.Upsample` is a simple interpolation which is not trainable.
