@@ -35,8 +35,18 @@ labels = [2, 2, 1, 0, 1]
 labels = torch.tensor(labels)
 print(imgs[labels==2])
 ```
-### Initialization of A Neural Network
-Sometimes, improper initialization leads to a hard-to-converge model during training. In this situation, different initialization methods may work.
+## Initialization of A Neural Network
++ Improper initialization leads to a hard-to-converge model during training. In this situation, different initialization methods may work.
++ Difficult images, black-background images for example, may increase the difficulty of training.
+
+In these cases, just print the weights and their gradients of each layer to theck,
+```
+print(f"iter: {iter}/{len(train_loader.dataset.imgs)/len(batch_data)}\t loss: {batch_loss.item():.5f}")
+print(f"name\t data.mean()\t grad.mean()")
+for name, param in model.named_parameters():
+    print(f"{name}\t {param.data.mean():.6f}\t {param.grad.mean():.6f}")
+```
+### general initialization
 ```
 model = Net().to(device)
 model.apply(weights_init)
@@ -57,4 +67,17 @@ def weights_init(model):
 #         nn.init.kaiming_uniform_(model.weight.data)
 #         nn.init.xavier_normal_(model.weight.data)
         nn.init.normal_(model.weight.data, mean=0, std=.1)
+```
+### pretrained initialization
+```
+def _resnet(arch, block, layers, pretrained, progress, **kwargs):
+    model = ResNet(block, layers, **kwargs)
+    if pretrained:
+        pretrained_state_dict = torch.load(cfg_share["path_to_pretrained_model"])
+        state_dict = model.state_dict()
+        for key in state_dict:
+            if key in pretrained_state_dict:
+                state_dict[key].copy_(pretrained_state_dict[key])
+        model.load_state_dict(state_dict)
+    return model
 ```
